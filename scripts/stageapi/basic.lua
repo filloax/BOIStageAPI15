@@ -184,6 +184,7 @@ function StageAPI.StopOverridingMusic(music, allowOverrideQueue, neverOverrideQu
     end
 end
 
+-- returns canOverride, canOverrideQueue, neverOverrideQueue
 function StageAPI.CanOverrideMusic(music)
     for _, id in ipairs(StageAPI.NonOverrideMusic) do
         if type(id) == "number" then

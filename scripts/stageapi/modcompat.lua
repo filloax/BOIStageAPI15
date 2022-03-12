@@ -2,6 +2,7 @@ StageAPI.LogMinor("Loading Mod Compat")
 
 local subModules = {
     "minimapAPI",
+    "musicModCallback",
 }
 
 for _, subModule in ipairs(subModules) do
